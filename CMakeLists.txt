@@ -28,17 +28,46 @@ else()
 endif()
 
 set(SOURCEFILES 
+  TUIO/FlashSender.cpp
+  TUIO/FlashSender.h
+  TUIO/LibExport.h
+  TUIO/OneEuroFilter.cpp
+  TUIO/OneEuroFilter.h
+  TUIO/OscReceiver.cpp
+  TUIO/OscReceiver.h
+  TUIO/OscSender.h
+  TUIO/TcpReceiver.cpp
+  TUIO/TcpReceiver.h
+  TUIO/TcpSender.cpp
+  TUIO/TcpSender.h
+  TUIO/TuioBlob.cpp
+  TUIO/TuioBlob.h
   TUIO/TuioClient.cpp
   TUIO/TuioClient.h
+  TUIO/TuioContainer.cpp
   TUIO/TuioContainer.h
+  TUIO/TuioCursor.cpp
   TUIO/TuioCursor.h
+  TUIO/TuioDispatcher.cpp
+  TUIO/TuioDispatcher.h
   TUIO/TuioListener.h
+  TUIO/TuioManager.cpp
+  TUIO/TuioManager.h
+  TUIO/TuioObject.cpp
   TUIO/TuioObject.h
+  TUIO/TuioPoint.cpp
   TUIO/TuioPoint.h
   TUIO/TuioServer.cpp
   TUIO/TuioServer.h
   TUIO/TuioTime.cpp
   TUIO/TuioTime.h
+  TUIO/UdpReceiver.cpp
+  TUIO/UdpReceiver.h
+  TUIO/UdpSender.cpp
+  TUIO/UdpSender.h
+  TUIO/WebSockSender.cpp
+  TUIO/WebSockSender.h
+
 
   oscpack/ip/IpEndpointName.cpp
   oscpack/ip/IpEndpointName.h
